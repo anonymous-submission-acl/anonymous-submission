@@ -382,6 +382,45 @@
   </table>
 </div>
 
+<div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Original</th>
+        <th>Encodec</th>
+        <th>Llasa</th>
+        <th>Our</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Samples 9</th>
+        <td>
+          <audio controls>
+            <source src="./MOS_Recons/target/CN-sample1.wav" type="audio/wav" />
+          </audio>
+        </td>
+        <td>
+          <audio controls>
+            <source src="./MOS_Recons/encodec/CN-sample1.wav"  type="audio/wav" />
+          </audio>
+        </td>
+        <td>
+          <audio controls>
+            <source src="./MOS_Recons/Llasa/CN-sample1.wav"  type="audio/wav" />
+          </audio>
+        </td>
+        <td>
+          <audio controls>
+            <source src="./MOS_Recons/our/CN-sample1.wav"  type="audio/wav" />
+          </audio>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 
 <hr>
 <h2>Zero-shot TTS Generation Samples</h2>
@@ -653,6 +692,52 @@
                   <td>
                     <audio controls>
                       <source src="./MOS/our/0012_000398.wav" type="audio/wav" />
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <hr>
+          <hr>
+          <h5><small><strong>Sample 8 (Emotion: Sad) </strong></small></h4>
+          <h5><small>Text: 爱上一个人的重要标志就是:遇上任何美景都在遗憾,为何你不在身边.</small></h5>
+          <div>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Target</th>
+                  <th>F5-TTS</th>
+                  <th>cosyvoice2</th>
+                  <th>Our</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Samples</th>
+                  <td>
+                    <audio controls>
+                      <source src="./MOS/target/secap-cn-1.wav" type="audio/wav" />
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                  <td>
+                    <audio controls>
+                      <source src="./MOS/F5-TTS/secap-cn-1.wav" type="audio/wav" />
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                    <td>
+                    <audio controls>
+                      <source src="./MOS/cosyinstruct/secap-cn-1.wav" type="audio/wav" />
+                      Your browser does not support the audio element.
+                    </audio>
+                  </td>
+                  <td>
+                    <audio controls>
+                      <source src="./MOS/our/secap-cn-1.wav" type="audio/wav" />
                       Your browser does not support the audio element.
                     </audio>
                   </td>
